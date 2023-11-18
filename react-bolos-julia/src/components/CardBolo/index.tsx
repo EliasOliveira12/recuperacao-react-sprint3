@@ -1,8 +1,7 @@
-import "./style.css";
+// import "./style.css";
 
 
 
-import CardBolo from "../CardBolo";
 
 import api from "../../utils/api";
 
@@ -14,7 +13,7 @@ function CardBolo(props: any) {
         <div id="card">
             <div>
                 <img
-                    src={"http://localhost:3000/static/" + props.imagem}
+                    src={"http://localhost:3000/static/" + props.foto}
                     alt={"Foto de um " + props.nome}
                 />
             </div>
@@ -28,7 +27,7 @@ function CardBolo(props: any) {
                 <span>R${props.valor}</span>
             </div>
         </div>
-    );
+    )
 };
 
 export default CardBolo;

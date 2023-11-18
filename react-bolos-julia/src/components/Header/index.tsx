@@ -17,7 +17,7 @@ function Header() {
                     
                     <img src={imgLogo} alt="logo bolos julia" />
                     <nav>
-                        <Link to={"#"}>Home</Link>
+                        <Link to={"/"}>Home</Link>
                         <Link to={"CadastroBolo"}>Cadastrar</Link>
                         <Link to={"Listabolo"}>bolos</Link>
                     </nav>

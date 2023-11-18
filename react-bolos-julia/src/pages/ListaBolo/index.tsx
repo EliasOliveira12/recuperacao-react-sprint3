@@ -48,6 +48,19 @@ function ListaBolo() {
                 <h1>Lista de Bolos</h1>
 
                 {/* CARDBOLO */}
+                {
+                    bolos.map((bolo:any,index:number)=>{
+                        return <CardBolo
+                        key={index}
+                        nome={bolo.nome}
+                        foto ={bolo.user_img}
+                        ingrediente={bolo.ingrediente}
+                        cobertura={bolo.cobertura}
+                        valor={bolo.valor}
+                        />
+
+                    })
+                }
 
             </section>
         </main>
